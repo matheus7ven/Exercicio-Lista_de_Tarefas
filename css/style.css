@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +9,9 @@
 
 body{
     background-color: #2c2c54;
+    max-width: 400px;
+    margin: 40px auto;
+    font-family: "Oldenburg", serif;
 }
 
 h1{
@@ -16,7 +22,7 @@ h1{
 input{
     background-color: #eeee;
     height: 30px;
-    width: 200px;
+    width: 290px;
     border-radius: 10px;
     border: 2px solid #d8d53b;
 }
@@ -37,3 +43,14 @@ button:hover{
     transform: scale(1.05);
 }
 
+li{
+    color: #eeee;
+    background-color:#52529b;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    margin: 5px;
+    
+}
