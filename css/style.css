@@ -32,7 +32,7 @@ button{
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
     height: 30px;
-    width: 100px;   
+    width: 102px;   
     border-radius: 10px;
     border: 2px solid #d8d53b;
     transition: 0.2s;
@@ -47,10 +47,11 @@ li{
     color: #eeee;
     background-color:#52529b;
     height: 30px;
-    width: 400px;
     border-radius: 10px;
     text-align: center;
-    list-style: none;
-    margin: 5px;
-    
+    list-style: none; 
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
